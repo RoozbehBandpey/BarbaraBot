@@ -1,0 +1,46 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtB3AwMUeNoq4gUBGe6Ocj8kyh3bXa9ZbV7u1fVKQoyKFHdkqU",
+      "size": "stretch"
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "medium",
+      "size": "default",
+      "weight": "bolder",
+      "text": "Hi, I am Barbara ;)",
+      "wrap": true,
+      "maxLines": 0
+    },
+    {
+      "type": "TextBlock",
+      "size": "default",
+      "isSubtle": "yes",
+      "text": "I am your assitant at Reply. Currently I can only book flights but I am learning to also creat Azure AD users...",
+      "wrap": true,
+      "maxLines": 0
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "Get an overview",
+      "url": ""
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Book a flight",
+      "url": ""
+    },
+    {
+      "type": "Action.OpenUrl",
+      "title": "Creat an Azure AD user",
+      "url": ""
+    }
+  ]
+}
