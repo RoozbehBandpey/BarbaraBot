@@ -30,17 +30,17 @@
     {
       "type": "Action.OpenUrl",
       "title": "Get an overview",
-      "url": ""
+      "url": "http://adaptivecards.io/schemas/adaptive-card.json"
     },
     {
       "type": "Action.OpenUrl",
       "title": "Book a flight",
-      "url": ""
+      "url": "http://adaptivecards.io/schemas/adaptive-card.json"
     },
     {
       "type": "Action.OpenUrl",
       "title": "Creat an Azure AD user",
-      "url": ""
+      "url": "http://adaptivecards.io/schemas/adaptive-card.json"
     }
   ]
 }
