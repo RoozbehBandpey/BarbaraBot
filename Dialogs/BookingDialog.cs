@@ -70,7 +70,7 @@ namespace Microsoft.BotBuilderSamples.Dialogs
 
             if (bookingDetails.TravelDate == null || IsAmbiguous(bookingDetails.TravelDate))
             {
-                return await stepContext.BeginDialogAsync(nameof(DateResolverDialogHi), bookingDetails.TravelDate, cancellationToken);
+                return await stepContext.BeginDialogAsync(nameof(DateResolverDialog), bookingDetails.TravelDate, cancellationToken);
             }
 
             return await stepContext.NextAsync(bookingDetails.TravelDate, cancellationToken);
